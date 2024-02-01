@@ -53,7 +53,13 @@
 
 header{
   height: 70px;
+}
+
+section.header{
   background-color: rgba(0,132,253,255);
+  position: fixed;
+  z-index: 999;
+  max-height: 70px;
 }
 
 .logo{
@@ -257,4 +263,5 @@ section.get-started{
   .about-us-reference{
     height: 700px;
   }
+
 }
