@@ -123,16 +123,17 @@ header{
 
 .with-us-cards{
   height: 400px;
+  background-color: white;
 }
 
  /* about us */
 
 .about-us-text{
-  height: 1000px;
+  height: 700px;
 }
 
 .about-us-reference{
-  height: 400px;
+  height: 300px;
 }
 
  /* get started section */
@@ -187,12 +188,73 @@ section.get-started{
     height: 230px;
   }
 
+  /*with us */
+  .row-with-us{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .with-us-cards{
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-
+  /*about us */
+  .about-us{
+    display: flex;
+    justify-content: center;
+  }
+  .about-us-text{
+    width: 60%;
+  }
+  .about-us-reference{
+    width: 30%;
+    height: 500px;
+    margin-top: 50px;
+  }
 }
-
-
-
 
 /* desktop vp */
 
+@media screen and (min-width:1200px) {
+
+  /*header*/
+  .conteiner{
+    width: 70%;
+  }
+  .logo{
+    width: 20%;
+  }
+  .burger{
+    display: none;
+  }
+  .nav{
+    display: block;
+    width: 40%;
+    height: 100%
+  }
+
+  /*strategic-planner*/
+  .strategic{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .long-card{
+    width: 60%;
+  }
+  .short-card{
+    width: 40%;
+    margin-top: 200px;
+  }
+
+  /*whit us */
+  .with-us-cards{
+    width: 30%;
+  }
+
+  /*about us */
+  .about-us-reference{
+    height: 700px;
+  }
+}
