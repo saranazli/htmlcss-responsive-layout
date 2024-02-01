@@ -49,7 +49,7 @@
   margin-bottom: 50px;
 }
 
-/* header */
+/* HEADER */
 
 header{
   height: 70px;
@@ -70,28 +70,38 @@ header{
   display: none;
 }
 
-/* main*/
+.row{
+  height: 100%;
+  width: 100%;
+}
+/* MAIN */
 
- /*first section */
+ /*first, demo section */
 
 .big-card{
-  height: 600px;
+  height: 500px;
   background-color: var(--card-color);
 }
 
 .small-card{
-  height: 360px;
+  height: 350px;
   background-color: var(--card-color);
 }
 
- /*strategiv planning*/
+ /*strategic planning*/
 
 .long-card{
-  height: 660px;
+  height: 600px;
 }
 
 .short-card{
-  height: 610px;
+  height: 450px;
+}
+
+.short-card-img{
+  width: 70%;
+  height: 100%;
+  background-color: white;
 }
 
  /* testimonials */
@@ -115,7 +125,7 @@ header{
   height: 400px;
 }
 
-/* about us */
+ /* about us */
 
 .about-us-text{
   height: 1000px;
@@ -125,7 +135,7 @@ header{
   height: 400px;
 }
 
-/* get started section */
+ /* get started section */
 
 section.get-started{
   height: 620px;
@@ -142,7 +152,44 @@ section.get-started{
   height: 80%;
   width: 100%;
 }
-/*Media query */
+
+/* MEDIA QUERY */
+
+  /*tablet*/
+
+@media screen and (min-width:768px) {
+
+  /*demo setion*/
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .big-card{
+    width: 65%;
+    height: 560px;
+  }
+  .small-card.medium,
+  .small-card{
+    width: 30%;
+    margin-top: 50px;
+  }
+  .small-card.medium{
+    height: 560px;
+  }
+  .small-card{
+    height: 435px;
+  }
+
+  /*testimonials*/
+  .testimonials-text,
+  .testimonials-cards{
+    height: 230px;
+  }
+
+
+
+}
 
 
 
