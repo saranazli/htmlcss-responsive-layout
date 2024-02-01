@@ -1,6 +1,7 @@
 :root{
   --card-color: rgba(181,221,255,255);
   --bg-coloured-section: rgba(151,146,228,255);
+  --footer-bg-color:rgba(51,51,51,255);
 }
 
 *{
@@ -30,9 +31,14 @@
 .debug{
   border: 1px solid black;
 }
+
 .conteiner{
   width: 90%;
   height: 100%;
+}
+
+.coloured-section{
+  background-color: var(--bg-coloured-section);
 }
 
 .m-t{
@@ -78,11 +84,7 @@ header{
   background-color: var(--card-color);
 }
 
- /*coloured section*/
-
-.coloured-section{
-  background-color: var(--bg-coloured-section);
-}
+ /*strategiv planning*/
 
 .long-card{
   height: 660px;
@@ -101,6 +103,39 @@ header{
 .testimonials-cards{
   height: 500px;
   background-color: var(--bg-coloured-section);
+}
+
+ /*with-us*/
+
+.with-us-title{
+  height: 200px;
+}
+
+.with-us-cards{
+  height: 400px;
+}
+
+/* about us */
+
+.about-us-text{
+  height: 1000px;
+}
+
+.about-us-reference{
+  height: 400px;
+}
+
+/* get started section */
+
+section.get-started{
+  height: 620px;
+}
+
+/* FOOTER */
+
+.footer{
+  height: 250px;
+  background-color: var(--footer-bg-color);
 }
 
 /*Media query */
