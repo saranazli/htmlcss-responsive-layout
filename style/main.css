@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*utilities*/
+.d-flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.debug{
+  border: 1px solid black;
+}
+.conteiner-small{
+  width: 97%;
+  height: 100%;
+}
+
+/* header */
+
+header{
+  height: 70px;
+  background-color: rgba(0,132,253,255);
+}
+
+.logo{
+  width: 40%;
+  height: 100%;
+}
+
+.burger{
+  width: 30%;
+  height: 100%;
+}
+
+.nav{
+  display: none;
+}
+
+/* main*/
+
+
+/*Media query */
