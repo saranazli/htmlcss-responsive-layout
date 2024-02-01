@@ -138,7 +138,14 @@ section.get-started{
   background-color: var(--footer-bg-color);
 }
 
+.footer-text{
+  height: 80%;
+  width: 100%;
+}
 /*Media query */
+
+
+
 
 /* desktop vp */
 
