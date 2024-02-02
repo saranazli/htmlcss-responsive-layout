@@ -136,7 +136,7 @@ ul{
   font-size: 1rem;
 }
 
-a.btn-heder{
+a.btn-header{
   background-color: white;
   padding: 5px;
 }
@@ -146,6 +146,7 @@ a.btn-heder{
  /*first, demo section */
 
 .big-card{
+  padding: 30px;
   height: 700px;
   background-color: var(--card-color);
 }
@@ -159,8 +160,6 @@ div.big-text,
 div.big-img{
   height: 50%;
   margin: 0 auto;
-  padding: 30px;
-  padding-bottom: 0;
 }
 
 
@@ -177,16 +176,14 @@ p.demo-p{
 }
 
 .demo-btn{
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: center;
-  width: 100%;
 }
 
 .blue-btn{
   color: white;
   background-color: var(--header-color);
-  padding: 15px 60px;
-  border-radius: 25px;
+  padding: 10px 50px;
 }
 
  /*strategic planning*/
@@ -274,7 +271,7 @@ section.get-started{
     flex-wrap: wrap;
   }
 
-  /*demo setion*/
+  /*demo section*/
   .row{
     justify-content: space-between;
   }
@@ -293,7 +290,12 @@ section.get-started{
   .small-card{
     height: 435px;
   }
-
+  div.big-img,
+  div.demo-btn{
+    margin: 0;
+    width: 50%;
+  }
+  
   /*testimonials*/
   .testimonials-text,
   .testimonials-cards{
@@ -324,12 +326,14 @@ section.get-started{
 
 @media screen and (min-width:1200px) {
 
+  /*general*/
+  .d-flex-xl{
+    display: flex;
+  }
+
   /*header*/
   .conteiner{
     width: 70%;
-  }
-  .logo{
-    width: 20%;
   }
   .burger{
     display: none;
@@ -338,6 +342,34 @@ section.get-started{
     display: block;
     width: 45%;
     height: 100%
+  }
+
+  /*demo*/
+
+  .big-card,
+  .small-card.small-card.medium{
+    height: 400px;
+  }
+  .big-card{
+    width: 65%;
+  }
+  .small-card.medium{
+    width: 30%;
+  }
+  div.big-text,
+  div.big-img{
+    height: 100%;
+    width: 40%;
+  }
+  .blue-btn{
+    padding: 5px 20px;
+  }
+  div.demo-btn{
+    width: 200px;
+    padding: 0;
+  }
+  div.big-text{
+    height: 90%;
   }
 
   /*strategic-planner*/
