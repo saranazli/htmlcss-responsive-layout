@@ -3,22 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- stili  -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css' integrity='sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==' crossorigin='anonymous'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/main.css">
   <title>Responsive</title>
 </head>
 <body>
   <header class="d-flex center">
 
-    <section class="header conteiner d-flex center space-between debug">
+    <section class="header conteiner d-flex center space-between">
 
-      <div class="logo debug">
-        <!-- logo  -->
+      <div class="logo d-flex a-i-center">
+        <img class="logo-img" src="./img/logo.png" alt="logo">
       </div>
-      <menu class="burger debug">
-        <!-- burger -->
+      <menu class="burger d-flex a-i-center">
+        <i class="fa-solid fa-bars"></i>
       </menu>
-      <nav class="nav debug">
-        <!-- nav  -->
+      <nav class="nav">
+        <ul class="d-flex center space-between">
+          <li class="nav-li">
+            Planning
+          </li>
+          <li class="nav-li">
+            Testimonials
+          </li>
+          <li class="nav-li">
+            Features
+          </li>
+          <li class="nav-li">
+            About us
+          </li>
+          <li class="nav-li">
+            <a class="btn border-r" href="#"> Get started</a>
+          </li>
+        </ul>
       </nav>
 
     </section>
@@ -30,13 +51,35 @@
 
     <section class="d-flex center">
 
-      <section class="demo-section conteiner debug">
+      <section class="demo-section conteiner">
 
-        <div class="row">
-          <div class="big-card m-b m-t debug">
-            <!-- Demo app  -->
+        <div class="row d-flex-l f-wrap-w-l">
+
+          <div class="big-card d-flex-l m-b m-t border-r">
+
+            <div class="big-text">
+              <h3 class="b">Get demo application</h3>
+              <p class="demo-p b">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore impedit nostrum qui consectetur porro non a, architecto sint voluptatum voluptas provident eius incidunt corporis cumque repudiandae voluptatibus eum veritatis.
+              </p>
+              <div class="demo-btn">
+                <a class="blue-btn border-r" href="#">
+                  <i class="fa-brands fa-apple"></i>
+                  <span class="b">App store</span>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="big-img">
+              <img src="./img/phone.png" alt="phone">
+            </div>
+
           </div>
+
           <div class="small-card medium m-b debug">
+
+
     
           </div>
         </div>
@@ -107,7 +150,7 @@
         <div class="with-us-title m-t m-b debug">
           <!-- title -->
         </div>
-        <div class="row-with-us">
+        <div class="row-with-us d-flex-l j-c-center-l f-wrap-w-l ">
           <div class="with-us-cards m-b  debug">
             
           </div>
@@ -135,7 +178,7 @@
     <!-- about us -->
     <section class="d-flex center">
 
-      <section class="about-us conteiner">
+      <section class="about-us d-flex-l conteiner">
 
         <div class="about-us-text m-t m-b debug">
 
