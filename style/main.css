@@ -133,7 +133,7 @@ section.header{
 ul{
   width: 100%;
   height: 100%;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 a.btn-header{
@@ -172,11 +172,11 @@ h3{
 p.demo-p{
   color: var(--text-grey);
   padding: 20px 0;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .demo-btn{
-  padding-top: 20px;
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -352,6 +352,7 @@ section.get-started{
   }
   .big-card{
     width: 65%;
+    justify-content: space-between;
   }
   .small-card.medium{
     width: 30%;
@@ -359,14 +360,16 @@ section.get-started{
   div.big-text,
   div.big-img{
     height: 100%;
-    width: 40%;
+    width: 50%;
+    margin: 0;
   }
   .blue-btn{
     padding: 5px 20px;
   }
   div.demo-btn{
     width: 200px;
-    padding: 0;
+    padding-top: 10px;
+    text-align: left;
   }
   div.big-text{
     height: 90%;
