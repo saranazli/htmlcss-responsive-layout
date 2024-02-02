@@ -60,15 +60,15 @@
 }
 
 .m-b{
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .b{
   font-weight: bold;
 }
 
-li{
-  list-style: none;
+.white{
+  color: white;
 }
 
 .border-r{
@@ -77,6 +77,10 @@ li{
 
 .a-i-center{
   align-items: center;
+}
+
+.text-a-c{
+  text-align: center;
 }
 
 img{
@@ -102,6 +106,7 @@ header{
 main{
   margin-top: 50px;
 }
+
 section.header{
   max-height: 70px;
 }
@@ -117,7 +122,6 @@ section.header{
 .burger{
   width: 30%;
   height: 100%;
-  color: white;
   justify-content: end;
   font-size: 1.5rem;
 }
@@ -126,8 +130,8 @@ section.header{
   display: none;
 }
 
-.nav-li{
-  color: white;
+li{
+  list-style: none;
 }
 
 ul{
@@ -147,6 +151,7 @@ a.btn-header{
 
 .big-card{
   padding: 30px;
+  padding-bottom: 0;
   height: 700px;
   background-color: var(--card-color);
 }
@@ -162,7 +167,6 @@ div.big-img{
   margin: 0 auto;
 }
 
-
 h3{
   color: var(--header-color);
   padding-top: 20px;
@@ -177,19 +181,55 @@ p.demo-p{
 
 .demo-btn{
   padding-top: 25px;
-  text-align: center;
 }
 
 .blue-btn{
-  color: white;
   background-color: var(--header-color);
-  padding: 10px 50px;
+  padding: 10px 60px;
+}
+
+.small-card-file{
+  color: var(--header-color);
+  margin: 0 auto;
+}
+
+.small-card-in{
+  padding: 30px;
+}
+
+.small-card-text{
+  color: var(--text-grey);
+  padding-top: 30px;
+  line-height: 25px;
+}
+
+.icon{
+  font-size: 5rem;
 }
 
  /*strategic planning*/
+.strategic-box{
+  height: 1400px;
+}
 
 .long-card{
-  height: 600px;
+  height: 630px;
+  padding: 30px;
+}
+
+.img-strategic{
+  height: 300px;
+  width: 100%;
+}
+
+h3.strategic{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+.p-strategic{
+  line-height: 25px;
 }
 
 .short-card{
@@ -197,11 +237,24 @@ p.demo-p{
 }
 
 .short-card-img{
-  width: 70%;
-  height: 100%;
+  width: 85%;
+  height: 610px;
   background-color: white;
+  margin-top: 75px;
 }
 
+.short-card-in{
+  padding: 30px;
+}
+
+.t-strategic{
+  color: black;
+}
+
+.p-strategic-short{
+  font-style: italic;
+  line-height: 30px;
+}
  /* testimonials */
 
 .testimonials-text{
@@ -258,6 +311,9 @@ section.get-started{
 
 @media screen and (min-width:768px) {
   /*general*/
+  .conteiner{
+    width: 745px;
+  }
 
   .d-flex-l{
     display: flex;
@@ -281,7 +337,7 @@ section.get-started{
   }
   .small-card.medium,
   .small-card{
-    width: 30%;
+    width: 230px;
     margin-top: 50px;
   }
   .small-card.medium{
@@ -294,6 +350,9 @@ section.get-started{
   div.demo-btn{
     margin: 0;
     width: 50%;
+  }
+  .blue-btn{
+    padding: 10px 50px;
   }
   
   /*testimonials*/
@@ -330,11 +389,11 @@ section.get-started{
   .d-flex-xl{
     display: flex;
   }
+  .conteiner{
+    width: 1140px;
+  }
 
   /*header*/
-  .conteiner{
-    width: 70%;
-  }
   .burger{
     display: none;
   }
@@ -347,32 +406,33 @@ section.get-started{
   /*demo*/
 
   .big-card,
-  .small-card.small-card.medium{
-    height: 400px;
+  .small-card,
+  .small-card.medium{
+    height: 350px;
   }
   .big-card{
-    width: 65%;
+    width: 750px;
     justify-content: space-between;
+    padding-bottom: 30px;
   }
-  .small-card.medium{
-    width: 30%;
+  .small-card, .small-card.medium{
+    width: 360px;
   }
-  div.big-text,
-  div.big-img{
+  div.big-text{
     height: 100%;
-    width: 50%;
+    width: 400px;
     margin: 0;
-  }
-  .blue-btn{
-    padding: 5px 20px;
   }
   div.demo-btn{
     width: 200px;
     padding-top: 10px;
     text-align: left;
   }
-  div.big-text{
-    height: 90%;
+  div.big-img{
+    height: 100%;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-top: 30px;
   }
 
   /*strategic-planner*/
