@@ -234,6 +234,7 @@ h3.strategic{
 
 .short-card{
   height: 450px;
+  margin-top: 70px;
 }
 
 .short-card-img{
@@ -255,6 +256,13 @@ h3.strategic{
   font-style: italic;
   line-height: 30px;
 }
+
+i.fa-solid.fa-arrow-down{
+  background-color: var(--bg-coloured-section);
+  border-radius: 50%;
+  padding: 20px;
+}
+
  /* testimonials */
 
 .testimonials-text{
@@ -354,6 +362,26 @@ section.get-started{
   .blue-btn{
     padding: 10px 50px;
   }
+
+  /*strategic planning*/
+  .strategic-box{
+    height: 2100px;
+  }
+  .long-card{
+    height: 1000px;
+    margin: 0;
+  }
+  div.short-card{
+    height: 875px;
+    margin: 0;
+  }
+  div.short-card-img{
+    height: 100%;
+  }
+  .img-strategic{
+    height: 750px;
+  }
+
   
   /*testimonials*/
   .testimonials-text,
@@ -381,7 +409,7 @@ section.get-started{
   }
 }
 
-/* desktop vp */
+/* DESKTOP */
 
 @media screen and (min-width:1200px) {
 
@@ -436,17 +464,37 @@ section.get-started{
   }
 
   /*strategic-planner*/
+  .strategic-box{
+    height: 1000px;
+  }
   .strategic{
     flex-direction: row;
     justify-content: space-between;
+    width: 920px;
   }
   .long-card{
-    width: 60%;
+    width: 50%;
   }
-  .short-card{
-    width: 40%;
-    margin-top: 200px;
+  div.img-strategic{
+    height: 470px;
+    margin-top: 125px;
   }
+  h3.strategic{
+    padding: 50px 0;
+  }
+  div.short-card{
+    height: 560px;
+    width: 50%;
+    margin-top: 300px;
+  }
+  div.short-card-img{
+    height: 100%;
+  }
+  .img-str{
+    height: 250px;
+  }
+
+
 
   /*whit us */
   .with-us-cards{
