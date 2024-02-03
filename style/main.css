@@ -362,7 +362,7 @@ h4.with-us-t{
  /* about us */
 
 .about-us-text{
-  height: 800px;
+  height: 1000px;
 }
 
 .about-us-reference{
@@ -390,7 +390,7 @@ h4.with-us-t{
   border-radius: 50%;
 }
 
-.fa-solid.fa-quote-left{
+.fa-solid.fa-quote-left.him-icon{
   color: var(--bg-coloured-section);
   font-size: 4rem;
   position: absolute;
@@ -509,13 +509,14 @@ section.get-started{
   }
 
   /*about us */
- 
+  .about-us{
+    height: 1000px;
+  }
   .about-us-text{
     width: 60%;
   }
   .about-us-reference{
-    width: 30%;
-    height: 500px;
+    width: 40%;
     margin-top: 50px;
   }
 }
@@ -605,16 +606,18 @@ section.get-started{
     height: 250px;
   }
 
-
-
   /*whit us */
   .with-us-cards{
     width: 30%;
   }
 
   /*about us */
-  .about-us-reference{
-    height: 700px;
+  .about-us{
+    height: 800px;
+    padding-top: 150px;
   }
-
+  .about-us-text,
+  .about-us-reference{
+    margin: 0;
+  }
 }
