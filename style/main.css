@@ -329,8 +329,35 @@ h6{
 .with-us-cards{
   height: 400px;
   background-color: white;
+  padding: 30px;
 }
 
+h3.with-us-t,
+h4.with-us-t{
+  color: var(--bg-coloured-section);
+}
+
+.with-us-h3,
+h3.with-us-t{
+  font-size: 3rem;
+}
+
+h4.with-us-t{
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.viol-btn{
+  background-color: var(--bg-coloured-section);
+  border-radius: 25px;
+  padding: 8px 40px;
+}
+
+.p-with-us{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  line-height: 25px;
+}
  /* about us */
 
 .about-us-text{
