@@ -267,12 +267,58 @@ i.fa-solid.fa-arrow-down{
 
 .testimonials-text{
   height: 390px;
+  padding: 30px;
 }
 
 .testimonials-cards{
   height: 500px;
   background-color: var(--bg-coloured-section);
 }
+
+.testimonials-text-in{
+  max-height: 220px;
+  max-width: 1145px;
+}
+
+h6{
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+
+.t-testimonials{
+  color: var(--bg-coloured-section);
+  font-size: 2rem;
+  padding: 40px 0;
+}
+
+.p-testimonials{
+  line-height: 30px;
+}
+
+.testimonilas-width{
+  padding: 0 30px;
+}
+
+.testimonial-img{
+  width: 225px;
+  height: 225px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.testimonial-img-in{
+  border-radius: 50%;
+}
+
+.p-testimonials.txt{
+  padding-bottom: 20px;
+}
+
+.fa-solid.fa-quote-left,
+.fa-solid.fa-quote-right{
+  font-size: 2rem;
+}
+
 
  /*with-us*/
 
