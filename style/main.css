@@ -451,14 +451,22 @@ section.get-started{
 /* FOOTER */
 
 .footer{
-  height: 250px;
+  height: 200px;
   background-color: var(--footer-bg-color);
+  padding: 25px;
 }
 
-.footer-text{
-  height: 80%;
-  width: 100%;
+.footer-p{
+  font-size: .5rem;
+  padding: 20px;
 }
+
+.due-p{
+  color: var(--bg-coloured-section);
+  text-decoration: underline;
+}
+
+
 
 /* MEDIA QUERY */
 
@@ -562,6 +570,12 @@ section.get-started{
     margin-top: 50px;
   }
 }
+
+ /*get started scetion */
+
+ section.get-started-in{
+  max-width: 600px;
+ }
 
 /* DESKTOP */
 
