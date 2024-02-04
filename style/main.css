@@ -405,7 +405,48 @@ h4.with-us-t{
 
 section.get-started{
   height: 620px;
+  padding: 25px;
 }
+
+.t-6-started,
+.t-4-started,
+.t-2-started,
+.p-started{
+  padding-bottom: 20px;
+}
+
+.t-6-started{
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+.t-4-started{
+  font-size: 2.5rem;
+}
+
+.t-2-started{
+  font-size: 3.5rem;
+  color: rgba(253,193,95,255);
+}
+
+.p-started{
+  line-height: 25px;
+}
+
+.started-btn{
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: var(--bg-coloured-section);
+}
+
+.Copryright{
+ font-size: .5rem;
+ padding-top: 20px;
+}
+
+
 
 /* FOOTER */
 
@@ -511,6 +552,7 @@ section.get-started{
   /*about us */
   .about-us{
     height: 1000px;
+    padding-top: 150px;
   }
   .about-us-text{
     width: 60%;
