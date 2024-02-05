@@ -442,8 +442,11 @@ section.get-started{
 }
 
 .Copryright{
- font-size: .5rem;
+ font-size: .8rem;
  padding-top: 20px;
+}
+.Copryright :last-child{
+  text-decoration: underline;
 }
 
 
@@ -457,7 +460,7 @@ section.get-started{
 }
 
 .footer-p{
-  font-size: .5rem;
+  font-size: .8rem;
   padding: 20px;
 }
 
